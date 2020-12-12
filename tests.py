@@ -1,6 +1,6 @@
 import requests
 
-from app import is_alive_host
+from app.app import is_alive_host
 
 
 class MockResponse:

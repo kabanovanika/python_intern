@@ -12,7 +12,7 @@
 
 ## TODO
 
-- реализовать функцию [is_alive_host](./app.py)
+- реализовать функцию [is_alive_host](app/app.py)
 
 - покрыть функцию [тестами](./tests.py)
 
