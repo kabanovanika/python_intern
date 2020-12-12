@@ -1,15 +1,25 @@
 import requests
+from fastapi import FastAPI
+
+
+
+app = FastAPI()
+
 
 def is_alive_host(hostname):
     """Проверить, что запрашиваемый хост возвращает http status 100<=x<400."""
     try:
-        r = requests.head(hostname)
-        print(r.status_code)
+        r = requests.head(f'https://{hostname}')
+        if 100 <= r.status_code < 400:
+            return 'up'
+        else:
+            return 'down'
     except requests.ConnectionError:
-        print("Failed to connect")
+        message = "Failed to connect"
+        return message
 
 
-
-if __name__ == '__main__':
-    is_alive_host("https://semrush.com")
-
+@app.get("/healthz")
+async def read_item(hostname: str):
+    item = {'status': is_alive_host(hostname)}
+    return item
