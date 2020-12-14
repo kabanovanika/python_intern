@@ -1,7 +1,54 @@
-# python_intern
----
+# Python-Intern test
 
-## requirements
+Test task from Semrush. This service checks if the host is up or down. 
+
+## Getting Started
+
+You may clone the repository and run it on your local machine or just use the deployed version via link below 
+
+```
+http://84.201.141.133:8000/healthz?hostname=semrush.com
+```
+
+### Installing
+
+After cloning the repository you should install requirements.
+
+```
+pip install -r requirements.txt
+```
+
+### How to use
+For running the service you may use the command below
+
+```
+uvicorn app.app:app --reload
+```
+Then it will be callable on the host [localhost:8000/healthz](localhost:8000/healthz)
+
+The endpoint requires the host name, i.e hostname=wiki.com, typed right after the URL using '?' 
+
+```
+localhost:8000/healthz?hostname=wiki.com
+```
+And service gives JSON as result, either status 'up' or 'down' (depends on HTTP Response status code) 
+
+```
+{"status":"up"}
+```
+
+## Built With
+
+* [FastAPI](https://fastapi.tiangolo.com/) - The web framework
+* [Docker](https://www.docker.com/) - Container packaging
+
+## Authors
+
+* **Nika Kabanova** - *Initial work* - [kabanovanika](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## Given task requirements
 
 - python 3.9
 - В изначальном коде менять можно *всё*, вплоть до структуры файлов. 
