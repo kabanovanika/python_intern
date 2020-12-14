@@ -13,6 +13,8 @@ class MockGet:
         self.status_code = status_code
 
     def __call__(self, *args, **kwargs):
+        if self.status_code is None:
+            raise requests.ConnectionError
         return MockResponse(self.status_code)
 
 
@@ -23,4 +25,9 @@ def test_up_host(monkeypatch):
 
 def test_down_host(monkeypatch):
     monkeypatch.setattr(requests, "get", MockGet(400))
+    assert not is_alive_host('???')
+
+
+def test_connection_failure(monkeypatch):
+    monkeypatch.setattr(requests, "get", MockGet(None))
     assert not is_alive_host('???')
