@@ -14,11 +14,7 @@ def is_alive_host(hostname):
 
 
 @app.get("/healthz")
-async def read_item(hostname: str):
-    resp = "up" if is_alive_host(hostname) else "down"
-    item = {'status': resp}
-    return item
-
-
-if __name__ == '__main__':
-    is_alive_host()
+async def check_is_alive(hostname: str):
+    status = "up" if is_alive_host(hostname) else "down"
+    resp = {'status': status}
+    return resp
