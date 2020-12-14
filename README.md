@@ -41,6 +41,10 @@ And service gives JSON as result, either status 'up' or 'down' (depends on HTTP 
 {"status":"up"}
 ```
 
+> **_NOTE:_**  On the Dec 14, 2020 - the day I submitted the code - I had difficulties with very long response times when testing locally.
+I still don't know exactly what happened, but considering the Yandex.Cloud deployment worked as expected,
+I suspect long response times had something to do with a Google outage on the same day. Hopefully, everything will work correctly on your side 🤞
+
 ## Built With
 
 * [FastAPI](https://fastapi.tiangolo.com/) - The web framework
