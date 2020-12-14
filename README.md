@@ -24,6 +24,13 @@ For running the service you may use the command below
 ```
 uvicorn app.app:app --reload
 ```
+
+Or you can also use docker-compose
+
+```
+docker-compose up 
+```
+
 Then it will be callable on the host [localhost:8000/healthz](localhost:8000/healthz)
 
 The endpoint requires the host name, i.e hostname=wiki.com, typed right after the URL using '?' 
