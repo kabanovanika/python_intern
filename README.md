@@ -4,7 +4,7 @@ Test task from Semrush. This service checks if the host is up or down.
 
 ## Getting Started
 
-You may clone the repository and run it on your local machine or just use the deployed version via link below http://84.201.141.133:8000/healthz?hostname=semrush.com
+You may clone the repository and run it on your local machine or just use the deployed version via link below http://130.193.42.192:8000/healthz?hostname=semrush.com
 
 
 ### Installing
