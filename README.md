@@ -1,5 +1,7 @@
 # Python-Intern test
 
+[![YourActionName Actions Status](https://github.com/kabanovanika/python_intern/workflows/Python-intern%20workflow/badge.svg)](https://github.com/kabanovanika/python_intern/actions)
+
 Test task from Semrush. This service checks if the host is up or down. 
 
 ## Getting Started
