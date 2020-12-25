@@ -49,7 +49,23 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for tests.test_down_host">
+  <component name="RunManager" selected="Python tests.pytest for tests.test_connection_failure">
+    <configuration name="pytest for tests.test_connection_failure" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_connection_failure&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for tests.test_down_host" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_intern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,22 +79,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.test_down_host&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_is_alive_host" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_intern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_is_alive_host&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for tests.test_connection_failure" />
         <item itemvalue="Python tests.pytest for tests.test_down_host" />
         <item itemvalue="Python tests.pytest for tests.test_up_host" />
         <item itemvalue="Python tests.pytest for tests.test_is_alive_host_down" />
         <item itemvalue="Python tests.pytest for tests.test_is_alive_host_up" />
-        <item itemvalue="Python tests.pytest for tests.test_is_alive_host" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +151,35 @@
       <option name="presentableId" value="Default" />
       <updated>1607756949266</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add a connection failure test">
+      <created>1607951673026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607951673026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove unnecessary requirements">
+      <created>1607951699123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607951699123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor">
+      <created>1607951771689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607951771689</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update image to python 3.9">
+      <created>1607951794158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607951794158</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -168,31 +197,43 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add a connection failure test" />
+    <MESSAGE value="Remove unnecessary requirements" />
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Update image to python 3.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update image to python 3.9" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607776493117">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1607776493117" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1607968571747">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1607968571747" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1607951367924" />
     <state x="428" y="161" key="FileChooserDialogImpl" timestamp="1607763074023">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="428" y="161" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1607763074023" />
-    <state width="1259" height="264" key="GridCell.Tab.0.bottom" timestamp="1607875787968">
+    <state width="1259" height="472" key="GridCell.Tab.0.bottom" timestamp="1607968571495">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607875787968" />
-    <state width="1259" height="264" key="GridCell.Tab.0.center" timestamp="1607875787966">
+    <state width="1259" height="472" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607968571495" />
+    <state width="1259" height="472" key="GridCell.Tab.0.center" timestamp="1607968571491">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607875787966" />
-    <state width="1259" height="264" key="GridCell.Tab.0.left" timestamp="1607875787965">
+    <state width="1259" height="472" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607968571490" />
+    <state width="1259" height="472" key="GridCell.Tab.0.left" timestamp="1607968571488">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607875787965" />
-    <state width="1259" height="264" key="GridCell.Tab.0.right" timestamp="1607875787967">
+    <state width="1259" height="472" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607968571488" />
+    <state width="1259" height="472" key="GridCell.Tab.0.right" timestamp="1607968571492">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607875787967" />
+    <state width="1259" height="472" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607968571492" />
     <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1607875787971">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -213,9 +254,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607773435702" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1607765402156">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607951800202">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1607765402156" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607951800202" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1607948284125">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1607948284125" />
   </component>
 </project>
